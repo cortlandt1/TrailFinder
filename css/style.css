@@ -1,0 +1,286 @@
+
+input[type=text], input[type=password] {
+  width:90%;
+  margin: 10px 26px;
+  background-color:#585858;
+  border:1px solid #ccc;
+  box-shadow:0px 0px 10px 0px #424242;
+  padding:12px 20px;
+  box-sizing:border-box;
+  font-family:helvetica;
+  font-size: 16px;
+  display:inline-block;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#cityName {
+  color: white;
+}
+
+body {
+  font-family: 'Bangers', cursive;
+}
+
+.nav-wrapper {
+  background-color:rgb(76, 79, 88);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.main-container {
+  text-align: center;
+  background-image: linear-gradient(rgb(33, 64, 121), rgb(122, 164, 243)) ;
+
+}
+
+.header {
+  color: white;
+}
+
+#border {
+  border-bottom: white solid 2px;
+  margin: auto;
+  width: 55%;
+
+}
+
+.instruction-p {
+  color: white;
+}
+
+.section {
+  border-top: rgb(49, 49, 49) solid 1px;
+  padding: 0px !important;
+}
+
+.grey-text {
+  color: white;
+}
+
+#search-button {
+  /* background-color: rgb(148, 202, 250); */
+  background-color: rgb(82, 116, 146);
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+#current-button {
+  background-color: rgb(82, 116, 146);
+}
+
+#input {
+  float: none;
+  display: inline-block;
+}
+
+#trails-near-button {
+  display: inline-block;
+  float: none;
+}
+
+#carousel-main, #carousel-fav{
+  display: inline-block;
+  float: none;
+}
+
+button
+{
+ background-color: rgb(82, 116, 146);
+ color: white;
+ padding: 14px 10px;
+ cursor: pointer;
+ border: 1px;
+ width:100%;
+ margin: 8px 40px 8px 10px;
+ font-size: 18px;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+#btn {
+  background-color: #424242;
+  color: white;
+}
+
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.close {
+  font-size:30px;
+}
+
+/*Center the image and the close button*/
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;  
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 4% auto 14% auto;
+  border: 1px solid #888;
+  width: 40%;
+  padding-bottom: 30px;
+}
+
+.carousel .carousel-item {
+  width: 400px !important;
+}
+
+.carousel {
+  min-height: 700px;
+}
+
+#backgroundTop {
+  /* background-size: 100%; */
+ background-repeat: no-repeat;
+}
+
+.card-title {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+div:empty {
+  display: none;
+}
+
+.icon {
+  position: relative;
+  margin: -4px;
+  float: right;
+  height: 25px;
+  width: 25px;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
+}
+
+
+@media (max-height: 375px) {
+
+/* @media (max-width: 980 px) {
+  .parallax {
+      background-attachment: fixed !important;
+    }
+
+} */
+} 
+
+@media (max-height: 376px) {
+
+  html {
+    height: 667px;
+  }
+  
+  body {
+    max-height: 667vh;
+  }
+}
+  
+@media screen and (max-width: 415px){
+  .brand-logo {
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (min-width: 375px){
+  .brand-logo {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 320px){
+  .brand-logo {
+    font-size: 18px !important;
+  }
+} 
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+{
+  .MyMapStyle{
+    width: 355;
+    height: 600px;
+    
+  }
+}
+
+/* @media  screen and (max-wdith: 375px){
+  .MyMapStyle{
+    width: 355;
+    height: 600px;
+    
+  }
+    
+  } */
+
+
+
+/* #map
+{
+ 
+  height: 500px; 
+  width: 500px; 
+  margin: 53.5%;
+} */
+
+
+
+@media  screen and (min-wdith: 700px)
+{
+  .MyMapStyle{
+  height:600px;
+  width:600px;
+}
+
+}
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1024px) {
+  .MyMapStyle{
+  height:600px;
+  width:600px;
+  margin: 50%;
+  margin-top: -96px;
+}
+}
